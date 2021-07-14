@@ -376,7 +376,11 @@
         <label for="">
           <p class="email-title">Подпишитесь на рассылку</p>
           <input class="email-input" type="email" placeholder="E-mail" name="e-mail" required>
-          <button class="button-email" type="submit">Подписаться</button>
+          <button class="button-email" type="submit">Подписаться
+            <svg class=" svg-icon-footer" width="24px" height="24px">
+              <use href=./images/icons-svg/symbol-defs6.svg#icon-icon-send-1></use>
+            </svg>
+          </button>
         </label>
         </form>
       </div>
@@ -385,6 +389,32 @@
 
   <div class="backdrop  is-hidden" data-modal>
     <div class="modal" >
+      <form action="">
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <div class="form-field">
+          <label for="name-modal">Имя</label>
+          <input type="text"  name="name" required id="name-modal">
+        </div>
+        <div class="form-field">
+          <label for="tel-modal">Телефон</label>
+          <input type="tel"  name="tel" required id="tel-modal">
+        </div>
+        <div class="form-field">
+          <label for="email-modal">Почта</label>
+          <input type="email"  name="e-mail" required id="email-modal">
+        </div>
+        <div class="form-field">
+          <label for="comment">Комментарий</label>
+          <textarea name="comment" id="comment"  rows="10"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой" id="Соглашаюсь с рассылкой">
+          <label for="Соглашаюсь с рассылкой">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
+        </div>
+        <button type="submit"> Отправить</button>
+
+      </form>
+      
       <button data-modal-close class="close-btn" >x</button>
     </div>
   </div>

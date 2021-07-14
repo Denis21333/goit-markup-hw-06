@@ -253,6 +253,7 @@ background-color:#188CE8;
 
   .modal {
     position: absolute;
+    padding: 40px;
     left: 50%;
     top: 50%;
     width: 528px;
@@ -804,4 +805,16 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 margin-left: 12px;
+}
+
+
+/* модалка */
+.form-field{
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
 }
