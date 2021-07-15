@@ -389,37 +389,46 @@
 
   <div class="backdrop  is-hidden" data-modal>
     <div class="modal" >
-      <form action="">
+      <form action="#">
         <p  class="backdrop-title">Оставьте свои данные, мы вам перезвоним</p>
-        <div class="form-field">
-          <label class="backdrop-label " for="name-modal">Имя</label>
-          <input class="backdrop-input" type="text"  name="name" required id="name-modal">
-          <svg class=" svg-icon-backdrop" width="18px" height="18px">
-            <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector></use>
-          </svg>
-        </div>
-        <div class="form-field">
-          <label class="backdrop-label " for="tel-modal">Телефон</label>
-          <input class="backdrop-input" type="tel"  name="tel" required id="tel-modal">
+        
+          <label class="backdrop-label form-field" > <span class="backdrop-name">Имя</span> 
+           <span class="backdrop-wraper">
+            <input class="backdrop-input" type="text"  name="name" required >
+            <svg class=" svg-icon-backdrop" width="18px" height="18px">
+              <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector></use>
+            </svg>
+          </span>
+          </label>
+        
+        
+          <label class="backdrop-label form-field " > <span class="backdrop-name">Телефон</span> 
+            <span class="backdrop-wraper">
+          <input class="backdrop-input" type="tel"  name="tel" required >
           <svg class=" svg-icon-backdrop" width="18px" height="18px">
             <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector-1></use>
           </svg>
-        </div>
-        <div class="form-field">
-          <label  class="backdrop-label " for="email-modal">Почта</label>
-          <input class="backdrop-input" type="email"  name="e-mail" required id="email-modal">
+        </span>
+        </label>
+        
+          <label  class="backdrop-label form-field " ><span class="backdrop-name"> Почта</span>
+          <span class="backdrop-wraper">
+          <input class="backdrop-input" type="email"  name="e-mail" required >
           <svg class=" svg-icon-backdrop" width="18px" height="18px">
             <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector-2></use>
           </svg>
-        </div>
-        <div class="form-field">
-          <label class="backdrop-label " for="comment">Комментарий</label>
-          <textarea class="backdrop-textarea" name="comment" id="comment"  rows="10" placeholder="Ввести текст"></textarea>
-        </div>
+        </span>
+        </label>
+        
+          <label class="backdrop-label " > <span class="backdrop-name">Комментарий</span>
+          <textarea class="backdrop-textarea" name="comment"  rows="10" placeholder="Ввести текст"></textarea>
+        </label>
+
         <div class="checkbox-div">
-          <input type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой" id="Соглашаюсь с рассылкой">
-          <label class="checkbox-title" for="Соглашаюсь с рассылкой">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
+          <input class="checkbox-input visually-hidden" type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой" id="Соглашаюсь с рассылкой">
+          <label class="checkbox-title" for="Соглашаюсь с рассылкой">Соглашаюсь с рассылкой и принимаю &nbsp; <a href="">Условия договора</a> </label>
         </div>
+        
         <button class="backdrop-btn" type="submit"> Отправить</button>
 
       </form>
