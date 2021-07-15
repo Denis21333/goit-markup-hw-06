@@ -390,28 +390,37 @@
   <div class="backdrop  is-hidden" data-modal>
     <div class="modal" >
       <form action="">
-        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <p  class="backdrop-title">Оставьте свои данные, мы вам перезвоним</p>
         <div class="form-field">
-          <label for="name-modal">Имя</label>
-          <input type="text"  name="name" required id="name-modal">
+          <label class="backdrop-label " for="name-modal">Имя</label>
+          <input class="backdrop-input" type="text"  name="name" required id="name-modal">
+          <svg class=" svg-icon-backdrop" width="18px" height="18px">
+            <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector></use>
+          </svg>
         </div>
         <div class="form-field">
-          <label for="tel-modal">Телефон</label>
-          <input type="tel"  name="tel" required id="tel-modal">
+          <label class="backdrop-label " for="tel-modal">Телефон</label>
+          <input class="backdrop-input" type="tel"  name="tel" required id="tel-modal">
+          <svg class=" svg-icon-backdrop" width="18px" height="18px">
+            <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector-1></use>
+          </svg>
         </div>
         <div class="form-field">
-          <label for="email-modal">Почта</label>
-          <input type="email"  name="e-mail" required id="email-modal">
+          <label  class="backdrop-label " for="email-modal">Почта</label>
+          <input class="backdrop-input" type="email"  name="e-mail" required id="email-modal">
+          <svg class=" svg-icon-backdrop" width="18px" height="18px">
+            <use href=./images/icons-svg/symbol-defs6.svg#icon-Vector-2></use>
+          </svg>
         </div>
         <div class="form-field">
-          <label for="comment">Комментарий</label>
-          <textarea name="comment" id="comment"  rows="10"></textarea>
+          <label class="backdrop-label " for="comment">Комментарий</label>
+          <textarea class="backdrop-textarea" name="comment" id="comment"  rows="10" placeholder="Ввести текст"></textarea>
         </div>
-        <div>
+        <div class="checkbox-div">
           <input type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой" id="Соглашаюсь с рассылкой">
-          <label for="Соглашаюсь с рассылкой">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
+          <label class="checkbox-title" for="Соглашаюсь с рассылкой">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
         </div>
-        <button type="submit"> Отправить</button>
+        <button class="backdrop-btn" type="submit"> Отправить</button>
 
       </form>
       

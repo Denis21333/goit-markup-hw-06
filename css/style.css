@@ -269,14 +269,19 @@ background-color:#188CE8;
   right: 8px;
   width: 30px;
   height: 30px;
-
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  
   background-color: transparent;
   cursor: pointer;
   padding: 0;
 }
+
+.close-btn:hover,
+.close-btn:focus
+{
+  color:  #2196F3;
+}
+
 
 .is-hidden {
   opacity: 0;
@@ -817,4 +822,72 @@ margin-bottom: 10px;
 
 textarea {
   resize: none;
+}
+
+.backdrop-title{
+font-weight:700;
+font-size: 20px;
+line-height:1.15;
+text-align: center;
+color:var(--secondary-text-color);
+margin-bottom: 12px;
+
+}
+
+.backdrop-label{
+  margin-bottom: 4px;
+}
+
+.backdrop-input{
+position: relative;
+width: 100%;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+padding-left: 42px;
+
+}
+
+.backdrop-textarea{
+padding: 12px 16px;
+width: 100%;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.checkbox-title{
+font-size: 14px;
+line-height: 1.71;
+color: var(--primary-text-color);
+
+}
+
+.checkbox-div{
+  margin-top: 20px;
+}
+
+.backdrop-btn{
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-top: 30px;
+margin-left: 115px;
+}
+
+.svg-icon-backdrop{
+  position: absolute;
+  transform: translateY(180%);
+  margin-left: 15px;
+
 }
